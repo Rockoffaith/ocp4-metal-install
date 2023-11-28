@@ -13,11 +13,11 @@ $TTL    604800
 27    IN    PTR    api.lab.ocp.lan.
 27    IN    PTR    api-int.lab.ocp.lan.
 ;
-??    IN    PTR    nxmaxmob01.lab.ocp.lan.
+22    IN    PTR    nxmaxbostp1.lab.ocp.lan.
 ;
 23    IN    PTR    nxmaxmn01.lab.ocp.lan.
-??    IN    PTR    nxmaxmn02.lab.ocp.lan.
-??    IN    PTR    nxmaxmn03.lab.ocp.lan.
+29    IN    PTR    nxmaxmn02.lab.ocp.lan.
+39    IN    PTR    nxmaxmn03.lab.ocp.lan.
 ;
 24    IN    PTR    nxmaxwork01.lab.ocp.lan.
 25    IN    PTR    nxmaxwork02.lab.ocp.lan.
