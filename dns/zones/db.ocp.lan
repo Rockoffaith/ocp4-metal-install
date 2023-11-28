@@ -11,12 +11,12 @@ $TTL    604800
 nxmaxbastion.ocp.lan.          IN      A       10.120.5.27
 
 ; Temp Bootstrap Node
-nxmaxmob01.lab.ocp.lan.        IN      A      10.120.5.22
+nxmaxbostp1.lab.ocp.lan.        IN      A      10.120.5.22
 
 ; Control Plane Nodes
 nxmaxmn01.lab.ocp.lan.         IN      A      10.120.5.23
-nxmaxmn02.lab.ocp.lan.         IN      A      10.120.5.??
-nxmaxmn03.lab.ocp.lan.         IN      A      10.120.5.??
+nxmaxmn02.lab.ocp.lan.         IN      A      10.120.5.29
+nxmaxmn03.lab.ocp.lan.         IN      A      10.120.5.39
 
 ; Worker Nodes
 nxmaxwork01.lab.ocp.lan.        IN      A      10.120.5.24
@@ -29,8 +29,8 @@ api-int.lab.ocp.lan.    IN    A    10.120.5.27
 
 ; ETCD Cluster
 etcd-0.lab.ocp.lan.    IN    A     10.120.5.23
-etcd-1.lab.ocp.lan.    IN    A     10.120.5.??
-etcd-2.lab.ocp.lan.    IN    A     10.120.5.??
+etcd-1.lab.ocp.lan.    IN    A     10.120.5.29
+etcd-2.lab.ocp.lan.    IN    A     10.120.5.39
 
 ; OpenShift Internal SRV records (cluster name = lab)
 _etcd-server-ssl._tcp.lab.ocp.lan.    86400     IN    SRV     0    10    2380    etcd-0.lab
