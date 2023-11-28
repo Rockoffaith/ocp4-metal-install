@@ -9,9 +9,9 @@ $TTL    604800
 
   IN      NS      nxmaxbastion.ocp.lan.
 
-27      IN    PTR    nxmaxbastion.ocp.lan.
-27      IN    PTR    api.lab.ocp.lan.
-27      IN    PTR    api-int.lab.ocp.lan.
+27    IN    PTR    nxmaxbastion.ocp.lan.
+27    IN    PTR    api.lab.ocp.lan.
+27    IN    PTR    api-int.lab.ocp.lan.
 ;
 ??    IN    PTR    nxmaxmob01.lab.ocp.lan.
 ;
