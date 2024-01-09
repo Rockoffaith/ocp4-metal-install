@@ -1,0 +1,23 @@
+$TTL    604800
+@       IN      SOA     nxmaxbastion.ocp.lan. contact.ocp.lan (
+                  1     ; Serial
+             604800     ; Refresh
+              86400     ; Retry
+            2419200     ; Expire
+             604800     ; Minimum
+)
+
+  IN      NS      nxmaxbastion.ocp.lan.
+
+27    IN    PTR    nxmaxbastion.ocp.lan.
+27    IN    PTR    api.lab.ocp.lan.
+27    IN    PTR    api-int.lab.ocp.lan.
+;
+23    IN    PTR    nxmaxmn01.lab.ocp.lan.
+29    IN    PTR    nxmaxmn02.lab.ocp.lan.
+39    IN    PTR    nxmaxmn03.lab.ocp.lan.
+;
+24    IN    PTR    nxmaxwork01.lab.ocp.lan.
+25    IN    PTR    nxmaxwork02.lab.ocp.lan.
+22    IN    PTR    nxmaxwork03.lab.ocp.lan.
+41    IN    PTR    nxmaxbootstrap.lab.ocp.lan.
